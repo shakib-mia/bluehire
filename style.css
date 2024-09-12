@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply scroll-smooth font-montserrat text-sm leading-9 md:text-lg lg:text-lg;
+}
+
+h1 {
+  @apply font-space-grotesk text-3xl !leading-[130%] md:text-5xl xl:text-[3.5rem];
+}
+
+h2 {
+  @apply font-space-grotesk text-3xl !leading-[130%] md:text-4xl xl:text-5xl;
+}
+
+h3 {
+  @apply font-space-grotesk text-3xl !leading-[130%] md:text-4xl xl:text-[2.5rem];
+}
+
+h4 {
+  @apply font-space-grotesk text-2xl !leading-[130%] md:text-3xl xl:text-4xl;
+}
+
+h5 {
+  @apply font-space-grotesk text-lg !leading-[130%] md:text-xl xl:text-2xl;
+}
+
+h6 {
+  @apply font-space-grotesk text-xl !leading-[130%];
+}
+
+button {
+  @apply whitespace-nowrap px-6 py-3 font-medium transition lg:px-8 lg:py-4;
+}
+
+button.primary {
+  @apply rounded-none bg-primary text-white hover:bg-secondary;
+}
+
+button.btn-outline {
+  @apply rounded-none border-2 border-primary bg-transparent text-primary hover:bg-primary hover:text-white;
+}
+
+button.secondary {
+  @apply rounded-none border border-secondary bg-secondary text-white hover:bg-white hover:text-primary;
+}
+
+button.white {
+  @apply rounded-none bg-white text-primary hover:bg-secondary hover:text-white;
+}
+
+::-webkit-scrollbar {
+  @apply w-0;
+}
+
+input,
+textarea {
+  @apply w-full border-2 border-primary px-5 py-4 placeholder:capitalize placeholder:text-primary placeholder:opacity-50;
+}
+
+input[type="file"],
+select {
+  @apply cursor-pointer file:cursor-pointer file:border-[0.5px] file:bg-transparent file:text-primary file:opacity-50;
+}

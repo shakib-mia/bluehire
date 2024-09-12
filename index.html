@@ -1,0 +1,1202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Connecting Skilled Workers with Great Opportunities"
+    />
+    <title>BlueHire</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- AOS CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+
+    <!-- AOS JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  </head>
+  <body>
+    <div class="w-screen overflow-x-hidden">
+      <div class="hidden bg-primary py-4 text-white xl:block" id="social">
+        <div class="container flex justify-between">
+          <div class="flex gap-6">
+            <p>Call : 123 456 7891</p>
+            <p>
+              Mail: <a href="mailto:support@raddito.com">support@raddito.com</a>
+            </p>
+          </div>
+
+          <div class="flex gap-7">
+            <a
+              class="transition hover:text-secondary"
+              href="https://www.facebook.com/RadditoLLC"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a
+              class="transition hover:text-secondary"
+              href="https://twitter.com/RadditoLLC"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a
+              class="transition hover:text-secondary"
+              href="https://www.instagram.com/radditollc"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              class="transition hover:text-secondary"
+              href="https://www.linkedin.com/company/radditollc/"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="z-[999999999999999999999] w-screen bg-white transition"
+        id="navbar"
+      >
+        <nav class="relative w-screen bg-white shadow-md">
+          <div class="container flex items-center justify-between py-4 xl:py-5">
+            <!-- Logo -->
+            <a href="#">
+              <h4 class="font-montserrat text-4xl font-semibold text-primary">
+                Blue<span class="text-secondary">Hire</span>
+              </h4>
+            </a>
+
+            <!-- Hamburger Icon (Visible on Mobile) -->
+            <div class="flex items-center xl:hidden">
+              <span
+                id="menu-toggle"
+                class="text-4xl text-primary focus:outline-none"
+              >
+                <i class="fas fa-bars"></i>
+              </span>
+            </div>
+
+            <!-- Navbar Links -->
+            <ul
+              id="menu"
+              class="absolute left-0 top-[99%] max-h-0 w-screen divide-y divide-secondary overflow-hidden bg-white text-lg font-medium text-primary shadow-lg transition-all duration-500 ease-linear xl:static xl:mt-0 xl:flex xl:max-h-full xl:w-auto xl:gap-8 xl:divide-y-0 xl:bg-transparent xl:py-0 xl:shadow-none"
+            >
+              <!-- Navbar Item -->
+              <li class="">
+                <a
+                  href="#"
+                  class="container block py-4 transition hover:bg-secondary hover:text-white lg:px-0 xl:p-4 xl:px-0 xl:hover:bg-transparent xl:hover:text-secondary"
+                  >Home</a
+                >
+              </li>
+              <!-- Navbar Item -->
+              <li class="">
+                <a
+                  href="#about"
+                  class="container block py-4 transition hover:bg-secondary hover:text-white lg:px-0 xl:p-4 xl:px-0 xl:hover:bg-transparent xl:hover:text-secondary"
+                  >About</a
+                >
+              </li>
+              <!-- Navbar Item -->
+              <li class="">
+                <a
+                  href="#jobs"
+                  class="container block py-4 transition hover:bg-secondary hover:text-white lg:px-0 xl:p-4 xl:px-0 xl:hover:bg-transparent xl:hover:text-secondary"
+                  >Jobs</a
+                >
+              </li>
+              <!-- Navbar Item -->
+              <li class="">
+                <a
+                  href="#employers"
+                  class="container block py-4 transition hover:bg-secondary hover:text-white lg:px-0 xl:p-4 xl:px-0 xl:hover:bg-transparent xl:hover:text-secondary"
+                  >Employers</a
+                >
+              </li>
+              <!-- Navbar Item -->
+              <li class="">
+                <a
+                  href="#blogs"
+                  class="container block py-4 transition hover:bg-secondary hover:text-white lg:px-0 xl:p-4 xl:px-0 xl:hover:bg-transparent xl:hover:text-secondary"
+                  >Blog</a
+                >
+              </li>
+              <!-- Navbar Item -->
+              <li class="">
+                <a
+                  href="#faq"
+                  class="container block py-4 transition hover:bg-secondary hover:text-white lg:px-0 xl:p-4 xl:px-0 xl:hover:bg-transparent xl:hover:text-secondary"
+                  >FAQ</a
+                >
+              </li>
+            </ul>
+
+            <!-- Register Button -->
+            <button class="primary hidden xl:inline-block">Register Now</button>
+          </div>
+        </nav>
+      </div>
+      <!-- Hero Section -->
+      <header
+        class="relative bg-cover bg-[right_center]"
+        style="background-image: url(./assets/hero.jpg)"
+      >
+        <!-- Overlay image for the background effect -->
+        <div
+          class="absolute left-0 top-0 z-0 h-full w-full bg-opacity-55 bg-[size:135vw_100%] bg-no-repeat lg:bg-[size:auto_100%] xl:bg-[size:67%]"
+          style="background-image: url(./assets/hero-left-bg.webp)"
+        ></div>
+
+        <!-- Container for the main content of the header -->
+        <div class="container relative text-white">
+          <!-- Main content section with responsive padding and width adjustments -->
+          <div
+            class="py-14 pt-32 sm:py-12 md:py-20 xl:w-7/12 xl:py-32 xl:pt-56"
+          >
+            <!-- Main heading of the header section -->
+            <h1
+              class="mb-2 font-bold xl:mb-6"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              Connecting
+              <span class="text-secondary">Skilled Workers</span> with Great
+              Opportunities
+            </h1>
+
+            <!-- Subheading or description below the main heading -->
+            <p
+              class="mb-4 xl:mb-8 xl:w-9/12"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="300"
+            >
+              Efficiently Find and Hire Skilled Workers for Your Projects Using
+              Our Platform
+            </p>
+
+            <!-- Search section with dropdowns and input field for job searches -->
+            <div class="flex w-full flex-col gap-4 md:flex-row md:gap-0">
+              <!-- Dropdown for selecting industries -->
+              <div
+                class="w-full bg-white px-4 py-2 text-dark-paragraph sm:px-8 sm:py-4 lg:px-4 xl:w-1/4"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="300"
+              >
+                <select
+                  name=""
+                  id=""
+                  class="h-full w-full cursor-pointer bg-transparent focus:outline-none"
+                >
+                  <option selected>Industries</option>
+                  <option value="Industries">Industries 1</option>
+                  <option value="Industries">Industries 2</option>
+                  <option value="Industries">Industries 3</option>
+                  <option value="Industries">Industries 4</option>
+                  <option value="Industries">Industries 5</option>
+                </select>
+              </div>
+
+              <!-- Another dropdown for selecting industries -->
+              <div
+                class="w-full bg-white px-4 py-2 text-dark-paragraph sm:px-8 sm:py-4 lg:px-4 xl:w-1/4"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
+                <select
+                  name=""
+                  id=""
+                  class="h-full w-full cursor-pointer bg-transparent focus:outline-none"
+                >
+                  <option selected>Location</option>
+                  <option value="Location">Location 1</option>
+                  <option value="Location">Location 2</option>
+                  <option value="Location">Location 3</option>
+                  <option value="Location">Location 4</option>
+                  <option value="Location">Location 5</option>
+                </select>
+              </div>
+
+              <!-- Input field for entering job title -->
+              <input
+                type="text"
+                class="w-full border-0 bg-white px-4 py-2 text-dark-paragraph focus:outline-none sm:px-8 sm:py-4 xl:w-1/4"
+                placeholder="Job Title....."
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="100"
+              />
+
+              <!-- Button to search for jobs -->
+              <div
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="0"
+              >
+                <button class="secondary whitespace-nowrap sm:mt-0">
+                  Search Job
+                </button>
+              </div>
+            </div>
+
+            <!-- Section displaying number of skilled workers and a brief description -->
+            <div class="mt-12 sm:w-1/2">
+              <div
+                class="mb-4 flex items-center gap-2"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <aside class="relative">
+                  <!-- Images representing skilled workers -->
+                  <img
+                    src="./assets/header-workers/Ellipse 10.png"
+                    alt="Worker 1"
+                  />
+                  <img
+                    src="./assets/header-workers/Ellipse 11.png"
+                    class="absolute left-1/2 top-0"
+                    alt="Worker 2"
+                  />
+                  <img
+                    src="./assets/header-workers/Ellipse 12.png"
+                    class="absolute left-full top-0"
+                    alt="Worker 3"
+                  />
+                </aside>
+                <!-- Display number of skilled workers -->
+                <aside class="ml-12 text-[2rem]">2500+</aside>
+              </div>
+
+              <!-- Brief description of the service -->
+              <p
+                class="text-base text-gray"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="500"
+                data-aos-anchor="header"
+              >
+                Connecting skilled workers with quality employers worldwide.
+              </p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Services Section -->
+      <section class="container py-14 lg:py-24" id="about">
+        <!-- Flex container to organize content side-by-side on large screens, stacked on smaller screens -->
+        <div
+          class="flex flex-col items-center divide-y divide-secondary lg:flex-row lg:divide-x lg:divide-y-0"
+        >
+          <!-- Left section: Heading -->
+          <div class="w-full pb-5 lg:w-5/12 lg:pb-0 lg:pr-10">
+            <!-- Main heading for the services section -->
+            <h2
+              class="font-bold"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              Skilled Hands, Trusted Services
+            </h2>
+          </div>
+
+          <!-- Right section: Description paragraph -->
+          <aside class="w-full lg:w-7/12">
+            <p
+              class="pt-5 text-sm md:text-base lg:pl-10 lg:pt-0 lg:text-lg"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              Our extensive network of experienced tradespeople, including
+              carpenters, welders, plumbers, electricians, and more, ensures
+              that we can meet your specific needs with precision and
+              reliability.
+            </p>
+          </aside>
+        </div>
+
+        <!-- Services Grid: Displays multiple service cards in a grid layout -->
+        <div
+          class="mt-8 grid grid-cols-1 gap-5 md:grid-cols-2 lg:mt-10 xl:grid-cols-4"
+        >
+          <!-- Service Card 1: Carpenters -->
+          <div
+            class="group relative rounded-xl border-2 border-primary bg-white"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <!-- Hover effect: border color and blur -->
+            <div
+              class="absolute left-2 top-2 z-[-1] h-full w-full rounded-xl border transition duration-500 group-hover:border-[#0045FF] group-hover:blur-[1.7px]"
+            ></div>
+
+            <div class="rounded-xl bg-white px-2 py-8">
+              <!-- Icon inside the service card with hover effect -->
+              <div
+                class="mx-auto flex h-20 w-20 items-center justify-center rounded-lg text-primary transition duration-500 group-hover:bg-primary group-hover:text-white"
+              >
+                <i class="fas fa-hammer text-xl"></i>
+                <!-- Icon representing the service -->
+              </div>
+
+              <!-- Service title -->
+              <h6 class="mt-5 text-center font-bold text-primary">
+                Carpenters
+              </h6>
+
+              <!-- Service description -->
+              <p class="mt-3 text-center font-montserrat">
+                Skilled in all woodworking and construction tasks, ensuring
+                precision and quality
+              </p>
+            </div>
+          </div>
+
+          <!-- Service Card 1: Carpenters -->
+          <div
+            class="group relative rounded-xl border-2 border-primary bg-white"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            <!-- Hover effect: border color and blur -->
+            <div
+              class="absolute left-2 top-2 z-[-1] h-full w-full rounded-xl border transition duration-500 group-hover:border-[#0045FF] group-hover:blur-[1.7px]"
+            ></div>
+
+            <div class="rounded-xl bg-white px-2 py-8">
+              <!-- Icon inside the service card with hover effect -->
+              <div
+                class="mx-auto flex h-20 w-20 items-center justify-center rounded-lg text-primary transition duration-500 group-hover:bg-primary group-hover:text-white"
+              >
+                <i class="fas fa-bolt text-xl"></i>
+                <!-- Icon representing the service -->
+              </div>
+
+              <!-- Service title -->
+              <h6 class="mt-5 text-center font-bold text-primary">
+                Electricians
+              </h6>
+
+              <!-- Service description -->
+              <p class="mt-3 text-center font-montserrat">
+                Certified experts for wiring, installations, and repairs across
+                residential, and industrial projects.
+              </p>
+            </div>
+          </div>
+
+          <!-- Service Card 1: Carpenters -->
+          <div
+            class="group relative rounded-xl border-2 border-primary bg-white"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <!-- Hover effect: border color and blur -->
+            <div
+              class="absolute left-2 top-2 z-[-1] h-full w-full rounded-xl border transition duration-500 group-hover:border-[#0045FF] group-hover:blur-[1.7px]"
+            ></div>
+
+            <div class="rounded-xl bg-white px-2 py-8">
+              <!-- Icon inside the service card with hover effect -->
+              <div
+                class="mx-auto flex h-20 w-20 items-center justify-center rounded-lg text-primary transition duration-500 group-hover:bg-primary group-hover:text-white"
+              >
+                <i class="fas fa-faucet text-xl"></i>
+                <!-- Icon representing the service -->
+              </div>
+
+              <!-- Service title -->
+              <h6 class="mt-5 text-center font-bold text-primary">Plumbers</h6>
+
+              <!-- Service description -->
+              <p class="mt-3 text-center font-montserrat">
+                Experienced in handling installations, maintenance, and
+                emergency repairs for all.
+              </p>
+            </div>
+          </div>
+
+          <!-- Service Card 1: Carpenters -->
+          <div
+            class="group relative rounded-xl border-2 border-primary bg-white"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            <!-- Hover effect: border color and blur -->
+            <div
+              class="absolute left-2 top-2 z-[-1] h-full w-full rounded-xl border transition duration-500 group-hover:border-[#0045FF] group-hover:blur-[1.7px]"
+            ></div>
+
+            <div class="rounded-xl bg-white px-2 py-8">
+              <!-- Icon inside the service card with hover effect -->
+              <div
+                class="mx-auto flex h-20 w-20 items-center justify-center rounded-lg text-primary transition duration-500 group-hover:bg-primary group-hover:text-white"
+              >
+                <i class="fas fa-wrench text-xl"></i>
+                <!-- Icon representing the service -->
+              </div>
+
+              <!-- Service title -->
+              <h6 class="mt-5 text-center font-bold text-primary">Welders</h6>
+
+              <!-- Service description -->
+              <p class="mt-3 text-center font-montserrat">
+                Certified welders specializing in structural, pipe, and
+                fabrication work with a focus on quality.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Understanding Blue-Collar Work Section -->
+      <section class="bg-gray py-14 lg:py-24" id="jobs">
+        <!-- Container for the section content -->
+        <div class="container">
+          <!-- Grid layout for the text and image content -->
+          <div
+            class="grid grid-cols-1 items-center gap-4 lg:grid-cols-2 lg:gap-7"
+          >
+            <!-- Left side: Text content about blue-collar work -->
+            <aside>
+              <!-- Section heading with AOS animation for fade-right effect -->
+              <h2
+                class="mb-4 font-bold lg:mb-8"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
+                Understanding Blue-Collar Work
+              </h2>
+
+              <!-- Paragraphs describing blue-collar work, each with AOS fade-right animation -->
+              <div class="flex flex-col gap-2 lg:gap-4">
+                <!-- First paragraph discussing manual labor and education requirements -->
+                <p
+                  class="capitalize"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                >
+                  Since many blue-collar jobs consist of mainly manual labor,
+                  educational requirements for workers are typically lower than
+                  those of white-collar workers. Often, not even a high school
+                  diploma is required, and many of the skills required for
+                  blue-collar jobs are learned by the employee while working.
+                </p>
+
+                <!-- Second paragraph about higher-level blue-collar jobs and vocational training -->
+                <p
+                  class="capitalize"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                >
+                  In higher-level blue-collar jobs, such as becoming an
+                  electrician or plumber, vocational training or apprenticeships
+                  are required, and state-certification is also necessary. For
+                  this reason, it is common to apply the label "blue-collar" or
+                  "working class" to people without a college education, whether
+                  or not they work in a blue-collar job.
+                </p>
+
+                <!-- Third paragraph about the company's commitment to supporting blue-collar workers -->
+                <p
+                  class="capitalize"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                >
+                  Our company is committed to supporting blue-collar workers by
+                  providing a platform that values their skills, training, and
+                  experiences. We recognize the unique challenges they face and
+                  strive to match them with employers who appreciate their hard
+                  work and dedication.
+                </p>
+              </div>
+            </aside>
+
+            <!-- Right side: Image grid showcasing blue-collar work visuals -->
+            <aside class="grid h-full grid-cols-2 gap-5" id="blue-collar-right">
+              <!-- Main large image with AOS fade-left effect -->
+              <img
+                src="./assets/blue-collar/Rectangle 2633.png"
+                alt="left"
+                class="h-full w-full transform border-[3px] border-primary object-cover"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-anchor="#blue-collar-right"
+              />
+              <!-- Smaller image grid with two additional images, each with AOS fade-left effect and delay -->
+              <aside class="grid grid-cols-1 gap-5">
+                <!-- First smaller image with a slight delay -->
+                <img
+                  src="./assets/blue-collar/Rectangle 2630.png"
+                  alt="left"
+                  class="h-full w-full object-cover"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  data-aos-anchor="#blue-collar-right"
+                  data-aos-delay="100"
+                />
+                <!-- Second smaller image with a longer delay -->
+                <img
+                  src="./assets/blue-collar/Rectangle 2632.png"
+                  alt="left"
+                  class="h-full w-full object-cover"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  data-aos-anchor="#blue-collar-right"
+                  data-aos-delay="200"
+                />
+              </aside>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- Join the Workforce Section -->
+      <section class="bg-primary py-14 text-white lg:py-24" id="employers">
+        <!-- Container for the sign-up section -->
+        <div class="container">
+          <!-- Grid layout for the image and call-to-action -->
+          <div
+            class="grid grid-cols-1 items-center gap-8 md:gap-16 lg:grid-cols-2 lg:gap-32"
+          >
+            <!-- Image with shadow effect and AOS fade-right animation -->
+            <img
+              src="./assets/hero.jpg"
+              class="order-2 shadow-[4px_4px_0_#fff] lg:order-1 lg:shadow-[8px_8px_0_#fff]"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            />
+
+            <!-- Right side: Call-to-action text and buttons -->
+            <aside class="order-1 lg:order-2">
+              <!-- Section heading with AOS fade-left effect -->
+              <h3
+                class="mb-8 font-bold capitalize"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
+                Sign up to find jobs or hire skilled workers.
+              </h3>
+
+              <!-- Buttons for Employers and Workers with AOS animation -->
+              <div class="flex gap-2 lg:gap-6">
+                <!-- Employer button with fade-left animation -->
+                <div data-aos="fade-left" data-aos-duration="1000">
+                  <button class="white">I am an Employer</button>
+                </div>
+                <!-- Worker button with a slight delay in fade-left animation -->
+                <div
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  data-aos-delay="100"
+                >
+                  <button class="white">I am a Worker</button>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blue Collar Education and Training Section -->
+      <section class="py-14 lg:py-24" id="blogs">
+        <!-- Container for section content -->
+        <div class="container">
+          <!-- Grid layout for text and image content -->
+          <div
+            class="grid grid-cols-1 items-center gap-4 lg:grid-cols-2 lg:gap-7"
+          >
+            <!-- Left side: Text content about blue-collar education and training -->
+            <aside>
+              <!-- Section heading with AOS animation for fade-right effect -->
+              <h2
+                class="mb-4 font-bold text-primary lg:mb-8"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
+                Blue-Collar Education & Training
+              </h2>
+
+              <!-- Paragraphs explaining the educational requirements and paths for blue-collar jobs -->
+              <div class="flex flex-col gap-2 lg:gap-4">
+                <!-- First paragraph: Basic education and on-the-job training -->
+                <p
+                  class="capitalize"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                >
+                  Since many blue-collar jobs consist of mainly manual labor,
+                  educational requirements for workers are typically lower than
+                  those of white-collar workers. Often, not even a high school
+                  diploma is required, and many of the skills required for
+                  blue-collar jobs are learned by the employee while working.
+                </p>
+
+                <!-- Second paragraph: Vocational training and certifications for higher-level jobs like electricians or plumbers -->
+                <p
+                  class="capitalize"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                >
+                  In higher-level blue-collar jobs, such as becoming an
+                  electrician or plumber, vocational training or apprenticeships
+                  are required, and state certification is also necessary. For
+                  this reason, it is common to apply the label "blue-collar" or
+                  "working class" to people without a college education, whether
+                  or not they work in a blue-collar job.
+                </p>
+
+                <!-- Third paragraph: Company’s commitment to supporting blue-collar workers through matching skills with employers -->
+                <p
+                  class="capitalize"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                >
+                  Our company understands these unique educational paths and is
+                  dedicated to connecting blue-collar workers with the right
+                  employers. We support workers in finding opportunities that
+                  align with their skills and training, and we help employers
+                  find the skilled labor they need.
+                </p>
+              </div>
+            </aside>
+
+            <!-- Right side: Image illustrating blue-collar education and training with fade-left animation -->
+            <aside>
+              <img
+                src="./assets/education-and-training.jpg"
+                alt="Education and Training Image"
+                class="h-full w-full transform border-primary object-cover"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              />
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- Commitment Section: This section highlights the company's dedication to blue-collar workers and outlines key services like job matching and project expertise. -->
+
+      <section class="bg-gray py-14 lg:py-24">
+        <div class="container">
+          <!-- Grid layout: Two-column layout with image and text content -->
+          <div class="grid grid-cols-1 items-center gap-8 lg:grid-cols-2">
+            <!-- Commitment Image: Fades in from the right, reorders for large screens -->
+            <img
+              src="./assets/commitment.jpg"
+              alt="commitment"
+              class="order-2 lg:order-1"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            />
+
+            <!-- Commitment Text: Reorders for large screens, fades in from the left -->
+            <aside class="order-1 lg:order-2">
+              <!-- Heading -->
+              <h2
+                class="mb-4 font-bold"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
+                Our Commitment to Blue-Collar Workers
+              </h2>
+              <!-- Paragraph -->
+              <p data-aos="fade-left" data-aos-duration="1000">
+                At WorkMates, we believe in the dignity and value of blue-collar
+                work. We are dedicated to providing a platform where workers can
+                find meaningful employment and where employers can find the
+                skilled labor necessary for their projects. We acknowledge the
+                educational and training pathways that lead to blue-collar jobs
+                and are committed to supporting workers at every stage of their
+                careers.
+              </p>
+
+              <!-- List of key services: Includes reliable job matching and project expertise -->
+              <ul class="mt-4 flex flex-col gap-3 lg:mt-8 lg:gap-6">
+                <!-- Service 1: Reliable Job Matching -->
+                <li
+                  class="flex items-center gap-4 text-primary"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                >
+                  <aside
+                    class="flex h-8 w-8 items-center justify-center rounded bg-primary bg-opacity-15"
+                  >
+                    <!-- Check icon -->
+                    <i class="fas fa-check"></i>
+                  </aside>
+                  <!-- Service Text -->
+                  <p class="text-xl font-medium">Reliable Job Matching</p>
+                </li>
+
+                <!-- Service 2: Expertise for Every Project -->
+                <li
+                  class="flex items-center gap-4 text-primary"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                >
+                  <aside
+                    class="flex h-8 w-8 items-center justify-center rounded bg-primary bg-opacity-15"
+                  >
+                    <!-- Check icon -->
+                    <i class="fas fa-check"></i>
+                  </aside>
+                  <!-- Service Text -->
+
+                  <p class="text-xl font-medium">Expertise for Every Project</p>
+                </li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section
+        class="container flex flex-col gap-7 py-14 lg:flex-row lg:py-24"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        id="faq"
+      >
+        <!-- Contact Information Sidebar -->
+        <aside
+          class="w-full lg:w-1/3"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <h2 class="mb-8 font-bold capitalize">Contact us as per your need</h2>
+
+          <!-- Address Information -->
+          <div
+            class="flex items-start gap-2"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 384 512"
+              class="mt-2 aspect-square w-9"
+            >
+              <!-- Font Awesome Icon for Location -->
+              <path
+                d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"
+              />
+            </svg>
+            <p>
+              789 West Grand Boulevard, Suite 250, Los Angeles, CA 90015, USA
+            </p>
+          </div>
+
+          <!-- Phone Numbers -->
+          <div
+            class="my-6"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            <div class="flex items-center gap-2">
+              <i class="fas fa-phone-alt"></i>
+              <p>+1 (555) 123-4567</p>
+            </div>
+
+            <div class="mt-2 flex items-center gap-2">
+              <i class="fas fa-phone-alt"></i>
+              <p>+1 (555) 987-6543</p>
+            </div>
+          </div>
+
+          <!-- Email Addresses -->
+          <div
+            class="flex items-center gap-2"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              class="aspect-square w-6"
+            >
+              <!-- Font Awesome Icon for Email -->
+              <path
+                d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+              />
+            </svg>
+            <a href="mailto:support@workmate.com">support@workmate.com</a>
+          </div>
+
+          <!-- Additional Email Address -->
+          <div
+            class="mt-2 flex items-center gap-2"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              class="aspect-square w-6"
+            >
+              <!-- Font Awesome Icon for Email -->
+              <path
+                d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+              />
+            </svg>
+            <a href="mailto:info@workmate.com">info@workmate.com</a>
+          </div>
+
+          <!-- Social Media Links -->
+          <div
+            class="mt-4 flex items-center gap-6"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+          >
+            <p>Follow us on</p>
+            <div class="flex gap-5">
+              <a class="transition hover:text-secondary" href="#"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="transition hover:text-secondary" href="#"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="transition hover:text-secondary" href="#"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a class="transition hover:text-secondary" href="#"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Contact Form Sidebar -->
+        <aside
+          class="w-full lg:w-2/3"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <!-- Button Options -->
+          <div
+            class="flex gap-2 lg:gap-6"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <button class="primary">I am A worker</button>
+            <button class="btn-outline">I am An Employer</button>
+          </div>
+
+          <!-- Contact Form -->
+          <form
+            class="mt-7"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            <!-- Name Fields -->
+            <div class="flex flex-col gap-5 lg:flex-row">
+              <aside class="flex w-full flex-col gap-1 lg:w-1/2">
+                <label for="first-name">Your First Name</label>
+                <input
+                  type="text"
+                  id="first-name"
+                  placeholder="Enter your first name"
+                />
+              </aside>
+
+              <aside class="flex w-full flex-col gap-1 lg:w-1/2">
+                <label for="last-name">Your Last Name</label>
+                <input
+                  type="text"
+                  id="last-name"
+                  placeholder="Enter your last name"
+                />
+              </aside>
+            </div>
+
+            <!-- Email and Phone Number Fields -->
+            <div class="mt-5 flex flex-col gap-5 lg:flex-row">
+              <aside class="flex w-full flex-col gap-1 lg:w-1/2">
+                <label for="email">Your Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Enter your Email Address"
+                />
+              </aside>
+
+              <aside class="flex w-full flex-col gap-1 lg:w-1/2">
+                <label for="phone">Your Phone Number</label>
+                <input
+                  type="text"
+                  id="phone"
+                  placeholder="Enter your Phone Number"
+                />
+              </aside>
+            </div>
+
+            <!-- Service Type and Resume Upload -->
+            <div class="mt-5 flex flex-col gap-5 lg:flex-row">
+              <aside
+                class="w-full lg:w-1/2"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="400"
+              >
+                <label for="serviceType">Service Type</label>
+                <div class="relative border-2 border-primary pr-5">
+                  <select
+                    id="serviceType"
+                    class="w-full appearance-none bg-transparent px-5 py-4 focus:outline-none"
+                  >
+                    <option selected disabled class="text-primary opacity-50">
+                      Select
+                    </option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                  </select>
+
+                  <!-- Font Awesome Chevron Icon -->
+                  <i
+                    class="fas fa-chevron-down pointer-events-none absolute inset-y-0 bottom-0 right-4 top-0 my-auto !flex items-center text-primary"
+                  ></i>
+                </div>
+              </aside>
+
+              <aside
+                class="w-full lg:w-1/2"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="500"
+              >
+                <label for="resume">Upload Resume</label>
+                <input type="file" id="resume" class="py-[0.8rem]" />
+              </aside>
+            </div>
+
+            <!-- Message Field -->
+            <aside
+              class="mt-5 flex flex-col gap-1"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            >
+              <label for="message">Your Message</label>
+              <textarea
+                id="message"
+                placeholder="Write your message here..."
+                class="h-40 w-full resize-none rounded border-2 border-primary px-4 py-2"
+              ></textarea>
+            </aside>
+
+            <!-- Submit Button -->
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="600"
+            >
+              <button type="submit" class="primary mt-7">Send Message</button>
+            </div>
+          </form>
+        </aside>
+      </section>
+
+      <!-- Footer Section -->
+      <footer class="bg-gray pt-14 lg:pt-24">
+        <div class="container pb-7 lg:pb-14">
+          <div class="flex flex-col lg:flex-row">
+            <div class="w-full lg:w-1/4">
+              <!-- Logo -->
+              <a href="#">
+                <h4 class="font-montserrat text-4xl font-semibold text-primary">
+                  Blue<span class="text-secondary">Hire</span>
+                </h4>
+              </a>
+
+              <p class="mt-1 lg:mt-4">
+                789 West Grand Boulevard, Suite 250, Los Angeles, CA 90015, USA
+              </p>
+            </div>
+            <div
+              class="mt-4 flex w-full flex-col gap-6 md:mt-8 md:gap-8 lg:mt-0 lg:w-3/4 lg:flex-row lg:gap-12"
+            >
+              <aside>
+                <h5 class="mb-3 font-medium text-primary md:mb-4 lg:mb-8">
+                  Quick Link
+                </h5>
+                <ul class="flex flex-col gap-2 lg:gap-4">
+                  <li>
+                    <a
+                      href="#"
+                      class="font-medium transition hover:text-secondary"
+                      >Home</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="font-medium transition hover:text-secondary"
+                      >About</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="font-medium transition hover:text-secondary"
+                      >Jobs</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="font-medium transition hover:text-secondary"
+                      >Employers</a
+                    >
+                  </li>
+                </ul>
+              </aside>
+
+              <aside>
+                <h5 class="mb-3 font-medium text-primary md:mb-4 lg:mb-8">
+                  Resources
+                </h5>
+                <ul class="flex flex-col gap-2 lg:gap-4">
+                  <li>
+                    <a
+                      href="#blogs"
+                      class="font-medium transition hover:text-secondary"
+                      >Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#faq"
+                      class="font-medium transition hover:text-secondary"
+                      >FAQs</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="font-medium transition hover:text-secondary"
+                      >Industry Insights</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="font-medium transition hover:text-secondary"
+                      >Safety Guidelines</a
+                    >
+                  </li>
+                </ul>
+              </aside>
+
+              <aside>
+                <h5 class="mb-3 font-medium text-primary md:mb-4 lg:mb-8">
+                  Services
+                </h5>
+                <ul class="flex flex-col gap-2 lg:gap-4">
+                  <li>
+                    <a
+                      href="#"
+                      class="font-medium transition hover:text-secondary"
+                      >Job Matching</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="font-medium transition hover:text-secondary"
+                      >Training & Certification</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="font-medium transition hover:text-secondary"
+                      >Workforce Management</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="font-medium transition hover:text-secondary"
+                      >Career Counseling</a
+                    >
+                  </li>
+                </ul>
+              </aside>
+
+              <aside>
+                <h5 class="mb-3 font-medium text-primary md:mb-4 lg:mb-8">
+                  Legal
+                </h5>
+                <ul class="flex flex-col gap-2 lg:gap-4">
+                  <li>
+                    <a
+                      href="#"
+                      class="font-medium transition hover:text-secondary"
+                      >Privacy Policy</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="font-medium transition hover:text-secondary"
+                      >Terms of Service</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="font-medium transition hover:text-secondary"
+                      >Cookie Policy</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="font-medium transition hover:text-secondary"
+                      >Data Protection</a
+                    >
+                  </li>
+                </ul>
+              </aside>
+            </div>
+          </div>
+        </div>
+        <div class="h-px w-screen bg-primary"></div>
+
+        <p class="py-4 text-center lg:py-10">
+          Copyright &copy;<span id="year"></span> Designed and Developed by
+          <a
+            href="https://raddito.net/"
+            target="_blank"
+            class="font-medium text-secondary transition hover:text-primary"
+            >Raddito LLC</a
+          >
+        </p>
+      </footer>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/b50fc748ca.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
