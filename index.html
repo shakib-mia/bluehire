@@ -161,7 +161,7 @@
           >
             <!-- Main heading of the header section -->
             <h1
-              class="mb-2 font-bold xl:mb-6"
+              class="mb-4 font-bold xl:mb-6"
               data-aos="fade-right"
               data-aos-duration="1000"
             >
@@ -182,7 +182,7 @@
             </p>
 
             <!-- Search section with dropdowns and input field for job searches -->
-            <div class="flex w-full flex-col gap-4 md:flex-row md:gap-0">
+            <div class="flex w-full flex-col gap-2 md:flex-row md:gap-0">
               <!-- Dropdown for selecting industries -->
               <div
                 class="w-full bg-white px-4 py-2 text-dark-paragraph sm:px-8 sm:py-4 lg:px-4 xl:w-1/4"
@@ -241,14 +241,16 @@
                 data-aos-duration="1000"
                 data-aos-delay="0"
               >
-                <button class="secondary whitespace-nowrap sm:mt-0">
+                <button
+                  class="secondary w-full whitespace-nowrap sm:mt-0 lg:w-fit"
+                >
                   Search Job
                 </button>
               </div>
             </div>
 
             <!-- Section displaying number of skilled workers and a brief description -->
-            <div class="mt-12 sm:w-1/2">
+            <div class="mt-4 sm:w-1/2 lg:mt-12">
               <div
                 class="mb-4 flex items-center gap-2"
                 data-aos="fade-up"
@@ -296,7 +298,7 @@
           class="flex flex-col items-center divide-y divide-secondary lg:flex-row lg:divide-x lg:divide-y-0"
         >
           <!-- Left section: Heading -->
-          <div class="w-full pb-5 lg:w-5/12 lg:pb-0 lg:pr-10">
+          <div class="w-full pb-4 lg:w-5/12 lg:pb-0 lg:pr-10">
             <!-- Main heading for the services section -->
             <h2
               class="font-bold"
@@ -310,7 +312,7 @@
           <!-- Right section: Description paragraph -->
           <aside class="w-full lg:w-7/12">
             <p
-              class="pt-5 text-sm md:text-base lg:pl-10 lg:pt-0 lg:text-lg"
+              class="pt-4 text-sm md:text-base lg:pl-10 lg:pt-0 lg:text-lg"
               data-aos="fade-left"
               data-aos-duration="1000"
             >
@@ -324,7 +326,7 @@
 
         <!-- Services Grid: Displays multiple service cards in a grid layout -->
         <div
-          class="mt-8 grid grid-cols-1 gap-5 md:grid-cols-2 lg:mt-10 xl:grid-cols-4"
+          class="mt-4 grid grid-cols-1 gap-4 md:mt-8 md:grid-cols-2 lg:mt-10 xl:grid-cols-4"
         >
           <!-- Service Card 1: Carpenters -->
           <div
@@ -465,7 +467,7 @@
         <div class="container">
           <!-- Grid layout for the text and image content -->
           <div
-            class="grid grid-cols-1 items-center gap-4 lg:grid-cols-2 lg:gap-7"
+            class="grid grid-cols-1 items-center gap-8 lg:grid-cols-2 lg:gap-7"
           >
             <!-- Left side: Text content about blue-collar work -->
             <aside>
@@ -506,19 +508,22 @@
                   "working class" to people without a college education, whether
                   or not they work in a blue-collar job.
                 </p>
-                <!-- See More Button -->
-                <div
-                  class="mt-4 lg:mt-8"
-                  data-aos="fade-right"
-                  data-aos-duration="1000"
-                >
-                  <button class="primary">See More</button>
-                </div>
+              </div>
+              <!-- See More Button -->
+              <div
+                class="mt-4 lg:mt-8"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
+                <button class="primary w-full lg:w-fit">See More</button>
               </div>
             </aside>
 
             <!-- Right side: Image grid showcasing blue-collar work visuals -->
-            <aside class="grid h-full grid-cols-2 gap-5" id="blue-collar-right">
+            <aside
+              class="grid h-full grid-cols-2 gap-2 lg:gap-5"
+              id="blue-collar-right"
+            >
               <!-- Main large image with AOS fade-left effect -->
               <img
                 src="./assets/blue-collar/Rectangle 2633.png"
@@ -529,7 +534,7 @@
                 data-aos-anchor="#blue-collar-right"
               />
               <!-- Smaller image grid with two additional images, each with AOS fade-left effect and delay -->
-              <aside class="grid grid-cols-1 gap-5">
+              <aside class="grid grid-cols-1 gap-2 lg:gap-5">
                 <!-- First smaller image with a slight delay -->
                 <img
                   src="./assets/blue-collar/Rectangle 2630.png"
@@ -576,7 +581,7 @@
             <aside class="order-1 lg:order-2">
               <!-- Section heading with AOS fade-left effect -->
               <h3
-                class="mb-8 font-bold capitalize"
+                class="mb-4 font-bold capitalize lg:mb-8"
                 data-aos="fade-left"
                 data-aos-duration="1000"
               >
@@ -584,10 +589,14 @@
               </h3>
 
               <!-- Buttons for Employers and Workers with AOS animation -->
-              <div class="flex gap-2 lg:gap-6">
+              <div class="grid grid-cols-2 gap-2 lg:flex lg:gap-6">
                 <!-- Employer button with fade-left animation -->
                 <div data-aos="fade-left" data-aos-duration="1000">
-                  <button class="white">I am an Employer</button>
+                  <button
+                    class="white flex w-full justify-center lg:inline-block lg:w-fit"
+                  >
+                    I am an Employer
+                  </button>
                 </div>
                 <!-- Worker button with a slight delay in fade-left animation -->
                 <div
@@ -595,7 +604,11 @@
                   data-aos-duration="1000"
                   data-aos-delay="100"
                 >
-                  <button class="white">I am a Worker</button>
+                  <button
+                    class="white flex w-full justify-center lg:inline-block lg:w-fit"
+                  >
+                    I am a Worker
+                  </button>
                 </div>
               </div>
             </aside>
@@ -609,13 +622,13 @@
         <div class="container">
           <!-- Grid layout for text and image content -->
           <div
-            class="grid grid-cols-1 items-center gap-4 lg:grid-cols-2 lg:gap-7"
+            class="grid grid-cols-1 items-center gap-8 lg:grid-cols-2 lg:gap-7"
           >
             <!-- Left side: Text content about blue-collar education and training -->
             <aside>
               <!-- Section heading with AOS animation for fade-right effect -->
               <h2
-                class="mb-4 font-bold text-primary lg:mb-8"
+                class="mb-6 font-bold text-primary lg:mb-8"
                 data-aos="fade-right"
                 data-aos-duration="1000"
               >
@@ -623,7 +636,7 @@
               </h2>
 
               <!-- Paragraphs explaining the educational requirements and paths for blue-collar jobs -->
-              <div class="flex flex-col gap-2 lg:gap-4">
+              <div class="flex flex-col gap-4 lg:gap-4">
                 <!-- First paragraph: Basic education and on-the-job training -->
                 <p
                   class="capitalize"
@@ -650,14 +663,13 @@
                   "working class" to people without a college education, whether
                   or not they work in a blue-collar job.
                 </p>
-
-                <div
-                  class="mt-4 lg:mt-8"
-                  data-aos="fade-right"
-                  data-aos-duration="1000"
-                >
-                  <button class="primary">See More</button>
-                </div>
+              </div>
+              <div
+                class="mt-6 lg:mt-8"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
+                <button class="primary w-full lg:w-fit">See More</button>
               </div>
             </aside>
 
@@ -712,7 +724,7 @@
               </p>
 
               <!-- List of key services: Includes reliable job matching and project expertise -->
-              <ul class="mt-4 flex flex-col gap-3 lg:mt-8 lg:gap-6">
+              <ul class="mt-4 flex flex-col gap-2 lg:mt-8 lg:gap-6">
                 <!-- Service 1: Reliable Job Matching -->
                 <li
                   class="flex items-center gap-4 text-primary"
@@ -726,7 +738,9 @@
                     <i class="fas fa-check"></i>
                   </aside>
                   <!-- Service Text -->
-                  <p class="text-xl font-medium">Reliable Job Matching</p>
+                  <p class="text-base font-medium lg:text-xl">
+                    Reliable Job Matching
+                  </p>
                 </li>
 
                 <!-- Service 2: Expertise for Every Project -->
@@ -743,7 +757,9 @@
                   </aside>
                   <!-- Service Text -->
 
-                  <p class="text-xl font-medium">Expertise for Every Project</p>
+                  <p class="text-base font-medium lg:text-xl">
+                    Expertise for Every Project
+                  </p>
                 </li>
               </ul>
             </aside>
@@ -764,7 +780,9 @@
           data-aos="fade-right"
           data-aos-duration="1000"
         >
-          <h2 class="mb-8 font-bold capitalize">Contact us as per your need</h2>
+          <h2 class="mb-4 font-bold capitalize lg:mb-8">
+            Contact us as per your need
+          </h2>
 
           <!-- Address Information -->
           <div
@@ -776,7 +794,7 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 384 512"
-              class="mt-2 aspect-square w-9"
+              class="mt-2 aspect-square w-6 lg:w-9"
             >
               <!-- Font Awesome Icon for Location -->
               <path
@@ -790,18 +808,18 @@
 
           <!-- Phone Numbers -->
           <div
-            class="my-6"
+            class="my-2 lg:my-6"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="300"
           >
             <div class="flex items-center gap-2">
-              <i class="fas fa-phone-alt"></i>
+              <i class="fas fa-phone-alt text-sm md:text-lg"></i>
               <p>+1 (555) 123-4567</p>
             </div>
 
             <div class="mt-2 flex items-center gap-2">
-              <i class="fas fa-phone-alt"></i>
+              <i class="fas fa-phone-alt text-sm md:text-lg"></i>
               <p>+1 (555) 987-6543</p>
             </div>
           </div>
@@ -879,24 +897,26 @@
         >
           <!-- Button Options -->
           <div
-            class="flex gap-2 lg:gap-6"
+            class="grid grid-cols-2 gap-2 lg:flex lg:gap-6"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="200"
           >
             <button class="primary">I am A worker</button>
-            <button class="btn-outline">I am An Employer</button>
+            <button class="btn-outline flex justify-center">
+              I am An Employer
+            </button>
           </div>
 
           <!-- Contact Form -->
           <form
-            class="mt-7"
+            class="mt-4 lg:mt-7"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="300"
           >
             <!-- Name Fields -->
-            <div class="flex flex-col gap-5 lg:flex-row">
+            <div class="flex flex-col gap-2 lg:flex-row lg:gap-5">
               <aside class="flex w-full flex-col gap-1 lg:w-1/2">
                 <label for="first-name">Your First Name</label>
                 <input
@@ -917,7 +937,7 @@
             </div>
 
             <!-- Email and Phone Number Fields -->
-            <div class="mt-5 flex flex-col gap-5 lg:flex-row">
+            <div class="mt-2 flex flex-col gap-2 lg:mt-5 lg:flex-row lg:gap-5">
               <aside class="flex w-full flex-col gap-1 lg:w-1/2">
                 <label for="email">Your Email Address</label>
                 <input
@@ -938,7 +958,7 @@
             </div>
 
             <!-- Service Type and Resume Upload -->
-            <div class="mt-5 flex flex-col gap-5 lg:flex-row">
+            <div class="mt-2 flex flex-col gap-2 lg:mt-5 lg:flex-row lg:gap-5">
               <aside
                 class="w-full lg:w-1/2"
                 data-aos="fade-up"
@@ -979,7 +999,7 @@
 
             <!-- Message Field -->
             <aside
-              class="mt-5 flex flex-col gap-1"
+              class="mt-2 flex flex-col gap-1 lg:mt-5"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="500"
@@ -998,7 +1018,9 @@
               data-aos-duration="1000"
               data-aos-delay="600"
             >
-              <button type="submit" class="primary mt-7">Send Message</button>
+              <button type="submit" class="primary mt-4 lg:mt-7">
+                Send Message
+              </button>
             </div>
           </form>
         </aside>
@@ -1027,7 +1049,7 @@
                 <h5 class="mb-3 font-medium text-primary md:mb-4 lg:mb-8">
                   Quick Link
                 </h5>
-                <ul class="flex flex-col gap-2 lg:gap-4">
+                <ul class="flex flex-col gap-1 lg:gap-4">
                   <li>
                     <a
                       href="#"
@@ -1063,7 +1085,7 @@
                 <h5 class="mb-3 font-medium text-primary md:mb-4 lg:mb-8">
                   Resources
                 </h5>
-                <ul class="flex flex-col gap-2 lg:gap-4">
+                <ul class="flex flex-col gap-1 lg:gap-4">
                   <li>
                     <a
                       href="#blogs"
@@ -1099,7 +1121,7 @@
                 <h5 class="mb-3 font-medium text-primary md:mb-4 lg:mb-8">
                   Services
                 </h5>
-                <ul class="flex flex-col gap-2 lg:gap-4">
+                <ul class="flex flex-col gap-1 lg:gap-4">
                   <li>
                     <a
                       href="#"
@@ -1135,7 +1157,7 @@
                 <h5 class="mb-3 font-medium text-primary md:mb-4 lg:mb-8">
                   Legal
                 </h5>
-                <ul class="flex flex-col gap-2 lg:gap-4">
+                <ul class="flex flex-col gap-1 lg:gap-4">
                   <li>
                     <a
                       href="#"

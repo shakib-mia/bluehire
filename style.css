@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 body {
-  @apply scroll-smooth font-montserrat text-sm leading-9 md:text-lg lg:text-lg;
+  @apply scroll-smooth font-montserrat text-sm leading-7 md:text-lg lg:text-lg lg:leading-9;
 }
 
 h1 {
